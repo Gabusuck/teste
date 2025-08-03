@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Slide</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <img src="zenit2.png" alt="Logo">
+      </div>
+      <div class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#beta">beta</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="nav-login">
+        <a href="#login">Login</a>
+      </div>
+    </nav>
+  </header>
+
+ <!-- Seções (slides) -->
+ <section id="home" class="slide home">
+  <div class="hero-content">
+    <img src="zenit2.png" alt="Logo" class="logo" />
+    <h1 class="frase-impacto">The future of sports event management</h1>
+
+    <!-- Botão Join the Beta -->
+    <a href="#beta" class="btn-join-beta">
+      Join the Beta
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:8px;" viewBox="0 0 24 24">
+        <line x1="5" y1="12" x2="19" y2="12" />
+        <polyline points="12 5 19 12 12 19" />
+      </svg>
+    </a>
+
+    <div class="scroll-down" onclick="document.getElementById('sobre').scrollIntoView({ behavior: 'smooth' })">
+      <div class="circle">
+        <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a8a8a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </div>
+      <div class="scroll-text">Scroll para explorar</div>
+    </div>
+  </div>
+</section>
+
+  </div>
+</section>
+
+  
+  
+
+  <section id="sobre" class="slide">
+    <h1>Sobre</h1>
+    <p>Aqui você pode falar sobre você ou sua empresa.</p>
+  </section>
+
+  <section id="beta" class="slide">
+    <h1>Serviços</h1>
+    <p>Mostre o que você oferece!</p>
+  </section>
+
+  <section id="contato" class="slide">
+    <h1>Contato</h1>
+    <p>Entre em contato conosco.</p>
+  </section>
+
+  <script src="js/main.js"></script>
+
+
+</body>
+</html>
+
